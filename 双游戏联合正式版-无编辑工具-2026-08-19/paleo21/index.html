@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="theme-color" content="#d7e7e5" />
+    <meta name="description" content="冰河史前21点：保留三维动物模型与共同三维棋盘。" />
+    <meta property="og:title" content="冰河史前21点 · 冰原对峙档案" />
+    <title>冰河史前21点 · 三维冰原对峙</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./launcher.css?v=20260819-mobile-immersive-1" />
+    <link rel="stylesheet" href="./ar-mode.css?v=20260817-mobile-landscape-dice-3" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./vendor/three/build/three.module.js",
+          "three/addons/": "./vendor/three/examples/jsm/"
+        }
+      }
+    </script>
+    <script defer src="./zoom-baseline.js"></script>
+    <script defer src="./animal-card-data.js"></script>
+    <script defer src="./glb-replacements.js?v=20260815-model-color-1"></script>
+    <script defer src="./placement-sounds.js?v=20260815-snake-animal-audio-1"></script>
+    <script defer src="./online-mode.js?v=20260818-normal-ar-match-3"></script>
+    <script defer src="./mobile-landscape.js?v=20260819-mobile-immersive-1"></script>
+    <script type="module" src="./ar-controller.js?v=20260816-mindar-1"></script>
+    <script defer src="./game.js?v=20260819-mobile-animation-1"></script>
+  </head>
+  <body>
+    <a class="portal-back" data-floating-id="paleo21-return" data-floating-static="true" href="../index.html" target="_top" aria-label="返回双游戏入口">← 返回双游戏入口</a>
+    <div id="root"></div>
+    <noscript>请开启浏览器 JavaScript 后再进入游戏。</noscript>
+    <script defer src="./custom-controls.js?v=20260819-mobile-choice-1"></script>
+  </body>
+</html>
